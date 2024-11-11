@@ -4,49 +4,16 @@ from lib import log # 日志输出库
 log.out(0, "Basic Information ready...")
 
 # 基本信息
-ver = "v4.5.2p"
-author = "Suntrise (STR)"
-auth_abbr = "STR"
-title = "伪本地化演示程序 " + ver + " by " + auth_abbr
+ver = "1.0 Alpha"
+author = "ASTerisk Games"
+auth_abbr = "ASTerisk Games"
+title = "PsExtra Desktop " + ver + " by " + auth_abbr
 updmd = """
-# 更新日志 (详见GitHub Releases)
+# PsExtra Desktop Release Notes
 
-## v4.5.1p - 2023.8.2
+## 1.0 Alpha (November 11, 2024)
 
-1. 修复了一些BUG
-
-## v4.5p - 2023.8.1
-
-1. UI大改;
-2. 优化了部分功能;
-3. 检查更新API更换为KGithub;
-4. [开发者]控制台日志输出优化;
-5. 保存支持自动添加文件后缀;
-6. 保存伪本地化内容时允许保留原文; 
-7. 修复了一些BUG.
-
-## v4.2.1p - 2023.7.17
-
-1. 细节优化.
-
-## v4.2p - 2023.7.15
-
-1. 修复了一些BUG;
-2. 界面更新;
-3. 新增窗口置顶;
-3. 细节优化.
-
-## v4.1.1p - 2023.7.14
-
-1. 新增保存历史记录;
-2. 细节优化.
-
-## v4.1p - 2023.7.14
-
-1. 新增前后缀配置;
-2. 历史记录页面更新;
-3. 新增隐藏控制字符;
-4. 细节优化.
+1. Initial release.
 """
 
 # 定义内容
